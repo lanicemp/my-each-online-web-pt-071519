@@ -1,10 +1,12 @@
 require "pry"
 
-def my_each (greetings)
+def my_each(greetings)
 if block_given?
  yield array[i]
  i = 0
- 
+ binding.pry 
+ end 
+=begin
   while i < array.length
     i = i + 1
   end
@@ -13,7 +15,7 @@ else
   puts "Hey! No block was given!"
   end 
  binding.pry 
-end
+ =stop
 
 =begin
  if block_given?

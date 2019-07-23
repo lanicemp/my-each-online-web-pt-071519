@@ -6,6 +6,8 @@ if block_given?
  i = 0
  binding.pry 
  end 
+ end 
+ 
 =begin
   while i < array.length
     i = i + 1

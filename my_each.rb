@@ -5,8 +5,7 @@ if block_given?
  yield array[i]
  i = 0
  binding.pry 
- end 
- end 
+
  
 =begin
   while i < array.length

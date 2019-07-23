@@ -5,19 +5,7 @@ if block_given?
  yield array[i]
  i =0
 
- 
-  while i < array.length
-    i = i + 1
-    binding.pry 
-  end
-end 
 
-  array
-else 
-  puts "Hey! No block was given!"
-  end 
- binding.pry 
- =stop
 
 =begin
  if block_given?

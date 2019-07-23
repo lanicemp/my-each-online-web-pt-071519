@@ -11,7 +11,7 @@ if block_given?
     binding.pry 
   end
 end 
-=begin
+
   array
 else 
   puts "Hey! No block was given!"

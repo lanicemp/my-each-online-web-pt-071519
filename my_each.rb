@@ -3,15 +3,15 @@ require "pry"
 def my_each(greetings)
 if block_given?
  yield array[i]
- i = 0
- binding.pry 
+ i =0
 
  
-=begin
   while i < array.length
     i = i + 1
+    binding.pry 
   end
-  
+end 
+=begin
   array
 else 
   puts "Hey! No block was given!"
